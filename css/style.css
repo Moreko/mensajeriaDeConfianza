@@ -1,0 +1,99 @@
+body {
+}
+
+nav {
+	display: flex;
+	border-style: solid;
+	border-radius: 2%;
+}
+
+
+
+.div-titulo {
+    background: linear-gradient(to left, #8D2727, #4E0000);	
+    flex:4;
+	padding:3%;
+    border-radius: 2%;
+
+}
+
+h3 {
+	font-family: "corbel";
+	font-size: 6vw;
+	letter-spacing: 3px;
+	text-shadow: 0px 0.2px 6px grey;
+	text-align: center;
+	line-height: 5%
+}
+
+.deconfianza {
+	font-family: "corbel light";
+	font-size: 5vw;
+	letter-spacing: 3px;
+	text-shadow: 0px 0.5px 6px white;
+	padding: 5px;
+	font-style: italic;
+    text-align: center;
+}
+
+
+h2 {
+	font-family: monospace;
+	font-size: 6vw;
+}
+
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+header {
+	border-style: solid;
+	display: flex;
+    background-image: url('fondoflyer.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+p {
+	font-family: calibri;
+	font-size: 4vw;
+
+}
+
+.imagen-header {
+	flex:1;
+    margin: 2%;
+    padding: 2%;
+    align-self: center;
+}
+
+.texto-header {
+	flex:1;
+	margin: 1%;
+	padding: 2%;
+    font-weight: bold;
+    background: rgba(191, 191, 191, 0.5);
+    border-radius: 2px;
+}
+
+.servicios {
+	display: flex;
+	border-style: solid;
+	padding: 2%;
+}
+
+.servicio {
+	flex:1;
+	margin: 2%;
+	border-style: groove;
+	padding:2%;
+	text-align: center;
+}
+
+footer {
+	background-color: orange;
+	border-style: solid;
+}
